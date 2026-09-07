@@ -20,8 +20,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import {
   WhatsAppIcon,
-  GmailIcon,
-  LinkedInIcon,
+  GmailIcon
 } from "@/components/shared/icons/brand-icons";
 import { cn } from "@/lib/utils";
 import {
@@ -39,7 +38,6 @@ const CHANNELS: {
 }[] = [
   { key: "whatsapp", label: "WhatsApp", icon: WhatsAppIcon },
   { key: "mail", label: "Mail", icon: GmailIcon },
-  { key: "linkedin", label: "Linkedin", icon: LinkedInIcon },
 ];
 
 const MODES: {
